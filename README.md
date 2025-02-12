@@ -1,2 +1,4 @@
 https://cors-anywhere.herokuapp.com/
-Establish a proxy connect with this api and then run it
+
+![image](https://github.com/user-attachments/assets/61cd6059-52cd-4558-a6cc-59bbc7f0ac18)
+

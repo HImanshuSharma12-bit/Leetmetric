@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(104, 165, 160);
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: rgb(44, 59, 65);
+    padding: 20px;
+    border-radius: 5px;
+    width:50%;
+    max-width: 600px;
+}
+h1{
+    font-size: 2rem;
+}
+
+.user-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+}
+.user-container{
+ display: flex;
+ justify-content: space-between;
+}
+
+#user-input{
+    width: 88%;
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+#search-btn{
+  padding: 0.4rem;
+  border-radius: 5px;  
+}
+.circle{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid rgb(26, 21, 99);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+  background: conic-gradient(rgb(117, 36, 4)var(--progress-degree,40%),
+  rgb(60, 185, 60)0%);
+  flex-direction: column;
+}
+.circle span{
+    position: relative;
+    z-index: 2;
+}
+.progress{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.stats-cards{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+
+h4{
+    font-size: 1rem;
+}
+
+.card{
+    background-color: rgb(66, 119, 41);
+    width: 40%;
+    max-width: 290px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    min-height: 4rem;
+}
